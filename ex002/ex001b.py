@@ -1,18 +1,18 @@
 import math as m
 
-radianos = m.radians(30)
+radianos = m.radians(30);
 
-print(radianos)
+print(radianos);
 
-radianos = m.radians(60)
+radianos = m.radians(60);
 
-print(radianos)
+print(radianos);
 
-radianos = m.radians(90)
+radianos = m.radians(90);
 
-print(radianos)
+print(radianos);
 
-radianos = m.radians(180)
+radianos = m.radians(180);
 
-print(radianos)
+print(radianos);
 
