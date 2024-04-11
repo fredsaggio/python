@@ -16,7 +16,7 @@ while True:
 
     if int(advinhar) == numero:
         print(f'Parabéns, você acertou o número! Era realmente o {advinhar}! :)')
-        break
+        
     else: 
-        print(f'Você errou! O número correto era o {numero}! :()')
-        break
+        print(f'Você errou! O número correto era o {numero} ! :(')
+        
