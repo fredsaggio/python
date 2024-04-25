@@ -3,7 +3,7 @@
 import random as r
 
 while True:
-    numero = r.randrange(1, 10)
+    numero = r.randint(1, 9)
     advinhar = str(input('Tente advinhar o número de 1 a 9: '))
 
     if not advinhar.isnumeric():

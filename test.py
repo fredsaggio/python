@@ -1,21 +1,21 @@
 while True:
-    try:
-        n = int(input('Digite um número: '))
-        break
-    except ValueError:
-        print('Valor inválido, digite um número inteiro.')
+    i = 0          
+    flag_num = False
+    flag_str = False
+    senha = str(input('Digite uma senha: '))
 
-soma = 0
+    if 8 <= len(senha) <= 16:
+        for i in range(len(senha)):
 
-for i in range(1, n+1):
-    while True:
-        try:
-            valor = int(input(f'Digite o {i}º valor'))
-            soma += valor
+            if senha[i].isnumeric():
+                flag_num = True
+            else:
+                flag_str = True
+
+        if flag_num and flag_str:
+            print('Senha válida!')
             break
-        except ValueError:
-            print('Digite um número inteiro.')
-
-media = soma / n
-
-print(f'A média dos valores recebidos é de: {media:.2f}')
+        else: 
+            print('Senha inválida! Pelo menos uma letra e um número!')
+    else:
+        print('No mínimo 8 caracteres e no máximo 16!')

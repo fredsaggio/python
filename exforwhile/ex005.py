@@ -1,11 +1,10 @@
 n = input('Enter a number: ')
 soma = 0
-n = int(n) # Redeclared variable
 
 while not n.isnumeric(): # Using a 'while' to check errors.
     
     print('Invalid value, enter an integer.')
-    n = int(input('Enter a number: '))
+    n = input('Enter a number: ')
 
 for i in range(1, int(n)+1):
     valor = (input(f'Enter the {i}º value: '))

@@ -1,6 +1,6 @@
 i = 50
 
-while i <:
+while i < 50:
     print(i)
     i+=1
 

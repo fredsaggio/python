@@ -5,7 +5,7 @@ numeros = ''
 for i in range(len(palavra)):
     if palavra[i].isnumeric():
         numeros += palavra[i]
-    if not palavra[i].isnumeric():
+    else:
         letras += palavra[i]
 
 print(letras)
