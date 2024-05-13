@@ -1,0 +1,2 @@
+
+listaN = int(lista2)
