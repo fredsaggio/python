@@ -1,0 +1,6 @@
+1- Criar Arquivo
+2- Editar Arquivo
+3- Ler Arquivo
+4- Limpar Arquivo
+5- Criar Copia de Arquivo
+6- Sair
