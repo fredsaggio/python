@@ -1,7 +1,9 @@
-with open("arquivo.txt", "w", encoding="utf-8") as arquivo:
-    content = arquivo.write("Olá, mundo! Este é um arquivo texto UTF-8 criado usando Python.")
+while True:
+    num = input('digite um número de 1 a 6: ')
 
-with open("arquivo.txt", "r", encoding='utf-8') as arquivoLer: 
-    contentLer = arquivoLer.read()
+    if not num.isnumeric():
+        print('Não é número')
+        continue
 
-print(contentLer)
+    if int(num) < 1 or int(num) > 6:
+        print('inválido')
