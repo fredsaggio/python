@@ -47,3 +47,5 @@ def menu_principal():
 executando = True
 while executando:
     executando = menu_principal()
+
+    
